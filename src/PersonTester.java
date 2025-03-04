@@ -34,7 +34,7 @@ public class PersonTester
         // Test .equals to see that the parameter can be a Person or a Student
         System.out.println("p1.equals(p2): " + p1.equals(p2));
         System.out.println("p1.equals(s): " + p1.equals(s));
-        System.out.println("s.equals(p2): " + s.equals(p2));
+        System.out.println("p2.equals(s): " + p2.equals(s));
         
     }
 }
